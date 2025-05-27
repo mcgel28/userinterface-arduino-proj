@@ -1,0 +1,100 @@
+#schedule-section {
+    max-width: 450px;
+    display:block;
+    align-items: center;
+    height: 100vh;
+ }
+ 
+ .header {
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .avatar { 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .welcome-text {
+    font-weight: 600;
+  }
+  
+  .settings-icons .icon {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #6b21a8;
+  }
+  
+
+  .date-section {
+    background-color: #fff;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 12px;
+  }
+  
+  .date-label {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 6px 12px;
+    background-color: #1832c0b6;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+
+  .medications {
+    padding: 0 16px;
+  }
+  
+  .med-card {
+    background-color: #fff;
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .med-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .pill-icon {
+    background-color: #1832c0b6;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .med-name {
+    font-weight: bold;
+  }
+  
+  .med-status {
+    font-size: 14px;
+    color: gray;
+  }
+  
+
+ 
+  

@@ -1,0 +1,57 @@
+.settings-section {
+    max-width: 450px;
+    display:block;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+  }
+  
+  .settings-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .setting-item label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .setting-item span {
+    font-size: 1rem;
+  }
+  
+  .setting-item input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .logout-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c6bc0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #3949ab;
+  }
+  

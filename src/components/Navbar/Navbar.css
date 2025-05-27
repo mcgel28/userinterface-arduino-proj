@@ -1,0 +1,28 @@
+.navbar-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 450px;
+    max-height: 150px;
+    z-index: 9;           
+  }
+
+  ul {
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-around;
+  }
+
+  ul li {
+    text-decoration: none;
+    list-style: none;
+ 
+  }
+
+.nav-icon {
+    font-size: 2em;
+    color: #0f0f0fb6;
+}
+
+
+  
