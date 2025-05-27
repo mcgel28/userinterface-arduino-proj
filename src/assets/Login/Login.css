@@ -39,7 +39,7 @@ input {
   border: none;
   border-radius: 15px;
   font-size: 1em;
-  color: #d4d4d4;
+  color: #313131;
   background-color: rgba(29, 29, 29, 0.555);
 }
 input[type="email"], input[type="password"] {
