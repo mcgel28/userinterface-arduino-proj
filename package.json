@@ -1,10 +1,12 @@
 {
-  "homepage": "https://github.com/mcgel28/userinterface-arduino-proj.git",
+  "homepage": "https://mcgel28.github.io/userinterface-arduino-proj",
   "name": "arduino-proj",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d -dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
